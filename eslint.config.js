@@ -5,7 +5,17 @@ import pluginVue from 'eslint-plugin-vue'
 
 export default [
   { files: ['**/*.{js,mjs,cjs,ts,vue}'] },
-  { languageOptions: { globals: { ...globals.browser, node: true } } },
+  {
+    languageOptions: {
+      globals: globals.browser,
+      parser: 'vue-eslint-parser',
+      parserOptions: {
+        parser: '@typescript-eslint/parser',
+        ecmaVersion: 2020,
+        sourceType: 'module'
+      }
+    }
+  },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   ...pluginVue.configs['flat/essential'],

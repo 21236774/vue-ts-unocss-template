@@ -19,5 +19,5 @@ pnpm run dev
 > 第一次提交前先执行一下命令, 按照commit正确提交规范来提交
 
 ```bash
-pnpm run lint
+pnpm run prepare
 ```

@@ -1,7 +1,8 @@
-<script setup></script>
+<script setup lang="ts"></script>
 
 <template>
-  <div class="home">头部内容标题等</div>
+  <div class="title">头部内容标题等</div>
+
   <router-view />
 </template>
 
