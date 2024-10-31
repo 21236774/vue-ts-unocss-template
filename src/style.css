@@ -1,0 +1,18 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --hb-f-color: #dd1616;
+}
+@font-face {
+  font-family: "D-DIN";
+  src: url("./assets/font/D-DIN-PRO-700-Bold.ttf");
+}
+@font-face {
+  font-family: "D-DIN-500";
+  src: url("./assets/font/D-DIN-PRO-500-Medium.ttf");
+}
+@font-face {
+  font-family: "D-DIN-400";
+  src: url("./assets/font/D-DIN-PRO-400-Regular.ttf");
+}
